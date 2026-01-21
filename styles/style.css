@@ -300,3 +300,140 @@
     font-size: 14px;
     margin: 0;
 }
+
+.membership {
+    padding: 100px 0 140px;
+    background-color: #057bf2;
+    color: #ffffff;
+}
+
+.membership__title {
+    max-width: 574px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.membership__steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    /* Adicione estilos */
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    max-width: 220px;
+    padding: 40px 20px;
+    /* Adicione estilos */
+}
+
+.step__title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.step__icon {
+    margin-left: 20px;
+}
+
+.step__description {
+    margin: 10px 0 0;
+}
+
+.footer {
+    box-sizing: border-box;
+    background-color: #000000;
+    padding: 60px 80px;
+}
+
+.footer__columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: last baseline;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
+
+.footer__column_content_hours {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    row-gap: 20px;
+    right: 80px;
+}
+
+.footer__column_content_social {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 80px;
+}
+
+.footer__logo {
+    display: flex;
+    margin-right: auto;
+    bottom: 100px;
+}
+
+.footer__column-heading {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.footer__list {
+    /* O código abaixo remove os estilos do navegador padrão para listas */
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: unset;
+    padding-top: 20px;
+}
+
+.footer__list-item {
+    display: flex;
+    flex-direction: row;
+    top: 20px;
+}
+
+.footer__column-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__social-icon {
+    color: white;
+}
+.footer__social-link {
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+}
+
+.footer__social-link:visited {
+    color: white;
+}
+.footer__text {
+    color: white;
+    margin: 0;
+}
+
+.footer__copyright {
+    color: white;
+    font-weight: -400;
+}
